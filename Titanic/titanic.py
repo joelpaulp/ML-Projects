@@ -9,9 +9,9 @@ Original file is located at
 
 import numpy as np
 import pandas as pd
-df=pd.read_csv("/content/train.csv")
-df1=pd.read_csv("/content/test.csv")
-df2=pd.read_csv("/content/gender_submission.csv")
+df=pd.read_csv("Titanic/train.csv")
+df1=pd.read_csv("Titanic/test.csv")
+df2=pd.read_csv("Titanic/gender_submission.csv")
 
 df2
 
