@@ -73,7 +73,7 @@ for i in ls:
 
 df_result = pd.DataFrame({
     'PassengerId': df2['PassengerId'],
-    'y_pred': y_pred
+    'Survived': y_pred
 })
 
 # Save the dataframe to a CSV file
